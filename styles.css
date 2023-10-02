@@ -7,7 +7,7 @@
 .hero-container {
     height: 100vh;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     background-image: url(./nubelson-fernandes-iE71-TMrrkE-unsplash\ \(1\).jpg);
@@ -15,7 +15,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*essas 4 linhas acima sao o efeito paralaxe*/
     padding-top: 10px;
 }
 
@@ -52,46 +51,65 @@ li:hover {
     height: 172px;
     bottom: 20px;
 }
+
 .arrows path {
-    stroke:#fff; /*em volta da seta*/
+    stroke: #fff;
     fill: transparent;
     stroke-width: 2px;
     animation: arrow 2s infinite;
-/*vamos usar a webkit para dar suporte a nossa animação.
-isso pe basicamente uma ferramenta q da suporte a mais 
-navegadores. abaixo: */
     -webkit-animation: arrow 2s infinite;
-/* agr vamos criar essa animaçoa: */
-}
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+
 }
 
-@-webkit-keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
 }
 
 .arrows path.a1 {
-    animation-delay:  -1s;
-    -webkit-animation-delay:  -1s;
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
 }
 
 .arrows path.a2 {
-    animation-delay:  -0.5s;
-    -webkit-animation-delay:  -0.5s;
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
 }
 
 .arrows path.a3 {
-    animation-delay:  0s;
-    -webkit-animation-delay:  0s;
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
 }
 
 .content-container {
@@ -103,8 +121,8 @@ navegadores. abaixo: */
     height: 100%;
     color: #333;
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     background-image: url(./akin-cakiner-xKBmqz66gEs-unsplash.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -118,7 +136,7 @@ navegadores. abaixo: */
 
 .profile-card {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     width: 350px;
     background-color: #fff;
@@ -129,7 +147,7 @@ navegadores. abaixo: */
 .profile-image {
     width: 150px;
     height: auto;
-    border-radius: 50%; /*faz com q vire um circulo perfeito */
+    border-radius: 50%;
     border: 4px solid #D870DB;
 }
 
@@ -157,7 +175,7 @@ navegadores. abaixo: */
     font-family: 'Oswald', sans-serif;
     margin-top: 35px;
     cursor: pointer;
-   
+
 }
 
 .divider {
@@ -167,7 +185,7 @@ navegadores. abaixo: */
 }
 
 .icons-container {
-    display: flex /*deixa um item ao lado do outro */;
+    display: flex;
     width: 100%;
     justify-content: space-around;
 }
@@ -199,13 +217,13 @@ navegadores. abaixo: */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}   
+}
 
 .project-content {
     width: 75%;
     height: 80%;
     display: grid;
-    grid-template-rows: repeat(1fr,3);
+    grid-template-rows: repeat(1fr, 3);
 }
 
 .position-container {
@@ -225,7 +243,7 @@ navegadores. abaixo: */
     width: 700px;
     height: 200px;
     background-color: black;
-    box-shadow: 10px 10px 5px black; /*sombra*/
+    box-shadow: 10px 10px 5px black;
     border-radius: 8px;
     display: flex;
     align-items: center;
