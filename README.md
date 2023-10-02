@@ -1,6 +1,6 @@
 # Portfolio :computer:
 
-Primeiro projeto  - iniciando no Frontend. Consiste em criar uma estrutura inicial de um Portifólio para utilizar futuramente na carreira profissional.
+Primeiro projeto  - iniciando no Frontend. Consiste em criar uma estrutura inicial de um portfolio para utilizar futuramente na carreira profissional.
 
 ## Linguagens e ferramentas: 
 
@@ -9,7 +9,7 @@ Primeiro projeto  - iniciando no Frontend. Consiste em criar uma estrutura inici
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Layout:
-### O Portifólio possui:
+### O Portfolio possui:
 
 - Home: tela inicial com efeito parallax. 
 - Projetos: projetos que serão desenvolvidos ao longo do curso e carreira. Aqui, foi usado Lorem ipsum para ocupar os espaços das descrições dos projetos que serão criados. 
