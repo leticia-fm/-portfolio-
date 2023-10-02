@@ -13,6 +13,20 @@ Primeiro projeto  - iniciando no Frontend. Consiste em criar uma estrutura inici
 
 - Home: tela inicial com efeito parallax. 
 - Projetos: projetos que serão desenvolvidos ao longo do curso e carreira. Aqui, foi usado Lorem ipsum para ocupar os espaços das descrições dos projetos que serão criados. 
-- Tecnologia: tecnologias utilizadas, bem como uma breve apresentação pessoal e profissional.
+- Tecnologias: tecnologias utilizadas, bem como uma breve apresentação pessoal e profissional.
 - Contato: espaço para entrarem em contato.
 
+## home:
+<img src="/imagens/home.png">
+
+## projetos:
+<img src="/imagens/projetos.png">
+
+## Contruibua para o projeto:
+
+- Realize o Fork;
+- Faça as modificações necessárias;
+- Realize a Pull Request (PR).
+
+# Autor:
+Letícia Fonseca
